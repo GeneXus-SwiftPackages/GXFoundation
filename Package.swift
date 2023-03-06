@@ -16,13 +16,13 @@ let package = Package(
 		.target(name: "GXFoundationWrapper",
 				dependencies: [
 					"GXFoundation",
-					.product(name: "YAJL", package: "YAJL", condition: .when(platforms: [.iOS, .tvOS, .watchOS]))
+					.product(name: "YAJL", package: "YAJL", condition: .when(platforms: [.watchOS, .tvOS, .iOS]))
 				],
 				path: "Sources"),
 		.binaryTarget(
 			name: "GXFoundation",
-			url: "https://pkgs.genexus.dev/iOS/beta/GXFoundation-1.0.0-beta+20230303092649.xcframework.zip",
-			checksum: "dbb0354513137e8bf93e4981130c159d8933451d85805b210cf434e320eeb89d"
+			url: "https://pkgs.genexus.dev/iOS/beta/GXFoundation-1.0.0-beta+20230306105223.xcframework.zip",
+			checksum: "512d50b5e4db30db934d84d0615735ea25eab15dca7e66c972fcbe832cdd8fd6"
 		)
 	]
 )
