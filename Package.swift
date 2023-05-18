@@ -21,8 +21,8 @@ let package = Package(
 				path: "Sources"),
 		.binaryTarget(
 			name: "GXFoundation",
-			url: "https://pkgs.genexus.dev/iOS/beta/GXFoundation-1.0.0-beta+20230516174834.xcframework.zip",
-			checksum: "17539405164d1d36bcfe281883391e732c2de4c95f6398e2f516d08dad571aff"
+			url: "https://pkgs.genexus.dev/iOS/beta/GXFoundation-1.0.0-beta+20230518171417.xcframework.zip",
+			checksum: "7a867af26e6f6b2e0e9e8d9b2e1dbff1d741e8945e2bd21393911eb1f44531f9"
 		)
 	]
 )
