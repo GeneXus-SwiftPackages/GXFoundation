@@ -1,4 +1,4 @@
-// swift-tools-version: 5.7
+// swift-tools-version: 5.9
 import PackageDescription
 
 let package = Package(
@@ -10,7 +10,7 @@ let package = Package(
 			targets: ["GXFoundationWrapper"])
 	],
 	dependencies: [
-		.package(url: "https://github.com/GeneXus-SwiftPackages/YAJL.git", exact: "1.6.0-beta.2")
+		.package(url: "https://github.com/GeneXus-SwiftPackages/YAJL.git", exact: "1.6.0-beta.3")
 	],
 	targets: [
 		.target(name: "GXFoundationWrapper",
@@ -21,8 +21,8 @@ let package = Package(
 				path: "Sources"),
 		.binaryTarget(
 			name: "GXFoundation",
-			url: "https://pkgs.genexus.dev/iOS/beta/GXFoundation-1.6.0-beta.2.xcframework.zip",
-			checksum: "bc331aa6b0741769b81d5ce1132c409c5b3a310773075cc2855e27c8d017ba35"
+			url: "https://pkgs.genexus.dev/iOS/beta/GXFoundation-1.6.0-beta.3.xcframework.zip",
+			checksum: "b54e0678f303b411a67d4cfa94d14c855bdce39cbc6a717d0945c6ceec343f8c"
 		)
 	]
 )
