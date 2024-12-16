@@ -3,14 +3,14 @@ import PackageDescription
 
 let package = Package(
 	name: "GXFoundation",
-	platforms: [.iOS("12.0"), .watchOS("9.0"), .tvOS("12.0"), .visionOS("1.0")],
+	platforms: [.iOS("13.0"), .watchOS("9.0"), .tvOS("13.0"), .visionOS("1.0")],
 	products: [
 		.library(
 			name: "GXFoundation",
 			targets: ["GXFoundationWrapper"])
 	],
 	dependencies: [
-		.package(url: "https://github.com/GeneXus-SwiftPackages/YAJL.git", exact: "2.2.0-beta.21")
+		.package(url: "https://github.com/GeneXus-SwiftPackages/YAJL.git", exact: "2.2.0-beta.24")
 	],
 	targets: [
 		.target(name: "GXFoundationWrapper",
@@ -21,8 +21,8 @@ let package = Package(
 				path: "Sources"),
 		.binaryTarget(
 			name: "GXFoundation",
-			url: "https://pkgs.genexus.dev/iOS/beta/GXFoundation-2.2.0-beta.21.xcframework.zip",
-			checksum: "3fc73cee02429d09432d8971d433eeac52220916978b17712795fd647586abf0"
+			url: "https://pkgs.genexus.dev/iOS/beta/GXFoundation-2.2.0-beta.24.xcframework.zip",
+			checksum: "968390e920968e1da0fc9dcd9db8a39abb0c02f64cbbb0a5d7d7749e14ad649a"
 		)
 	]
 )
