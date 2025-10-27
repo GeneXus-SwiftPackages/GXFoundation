@@ -10,7 +10,7 @@ let package = Package(
 			targets: ["GXFoundationWrapper"])
 	],
 	dependencies: [
-		.package(url: "https://github.com/GeneXus-SwiftPackages/YAJL.git", exact: "4.0.0")
+		.package(url: "https://github.com/GeneXus-SwiftPackages/YAJL.git", exact: "4.0.2")
 	],
 	targets: [
 		.target(name: "GXFoundationWrapper",
@@ -21,8 +21,8 @@ let package = Package(
 				path: "Sources"),
 		.binaryTarget(
 			name: "GXFoundation",
-			url: "https://pkgs.genexus.dev/iOS/releases/GXFoundation-4.0.0.xcframework.zip",
-			checksum: "ecf8af914b144da645cdc664ee75bbe680e82254b1fc8cd814f52198f70f12b1"
+			url: "https://pkgs.genexus.dev/iOS/releases/GXFoundation-4.0.2.xcframework.zip",
+			checksum: "97127fe5e13de2c5d1a6e0da38065aa764e67b010b171ff991b522771b704603"
 		)
 	]
 )
